@@ -1,8 +1,12 @@
 <?php
-
-if ( !defined('WP_UNINSTALL_PLUGIN') || !current_user_can( 'delete_plugins' ) ) {
-    exit();
+/**
+ * Uninstall
+ */
+if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) || ! WP_UNINSTALL_PLUGIN ||
+	dirname( WP_UNINSTALL_PLUGIN ) != dirname( plugin_basename( __FILE__ ) ) ) {
+	status_header( 404 );
+	exit;
 }
-delete_option('widget-easy_vbox7');
 
-?>
+// Delete options
+delete_option( 'widget_easy-vbox7' );

@@ -1,31 +1,39 @@
 === Easy VBOX7 ===
 Contributors: Caspie
 Donate link: http://donate.caspie.net/
-Tags: vbox, vbox7, video, videos, clip, clips, insert, posts, pages, sidebar
+Tags: vbox, vbox7, vbox7.com, video, videos, clip, clips, embed, media insert, posts, pages, sidebar
 Requires at least: 2.9
-Tested up to: 2.9.2
-Stable tag: 1.3
+Tested up to: 4.3
+Stable tag: 1.4
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Quick and easy way to insert videos from VBOX7.com right into your WordPress blog posts, pages and sidebar.
 
 == Description ==
 
-Quick and easy way to insert videos from VBOX7.com right into your WordPress blog posts, pages and sidebar. VBOX7 is the biggest Bulgarian video portal so far. It already has a few million videos and lot of them have titles or tags in english. So even if you can't read Bulgarian, you can easily use the big search box at the top-right corner of the website (vbox7.com) to find your favorite videos and to embed them right into your posts.
+Quick and easy way to embed videos from VBOX7.com right into your WordPress blog posts, pages and sidebar. VBOX7 is one of the biggest Bulgarian video portals. Many videos have titles or tags in English, so even if you can't read Bulgarian, you can easily use the big search box on top of the website (vbox7.com) to find your favorite videos and to embed them right into your posts.
 
 Go to Other Notes for: Default, Recommended and Advanced Usage.
 http://wordpress.org/extend/plugins/easy-vbox7/other_notes/
 
 == Installation ==
 
-1. Unzip the file easy-vbox7.zip wherever you want.
-2. Upload the extracted folder easy-vbox7 in /wp-content/plugins/ of your Wordpress installation.
-3. Activate the Plugin via the Plugins section at your WordPress admin panel.
+1. Search and install the plugin via WordPress &gt; Plugins &gt; Add New
+2. Or download the plugin from WordPress.org plugin directory.
+3. Unzip the file easy-vbox7.zip wherever you want.
+4. Upload the extracted easy-vbox7 folder in /wp-content/plugins/ of your WordPress installation.
+5. Activate the Plugin via the Plugins section at your WordPress admin panel.
 
 == Frequently Asked Questions ==
 
+= iframe or object? =
+
+Since version 1.4, iframe is used.
+
 = Casper? =
 
-Yes, but keep in mind that my wordpress.org username is Caspie.
+Yes, but keep in mind that my WordPress.org username is Caspie.
 
 = I want to thank you or send you some feedback? =
 
@@ -41,6 +49,14 @@ A lot, but you need Easy VBOX7 1.1 or newer!
 2. Easy VBOX7 Widget
 
 == Changelog ==
+
+= 1.4 =
+* Plugin refresh after... 5 years. Doh! :)
+* Updated code to use iframe embeds.
+* Widget moved to a separate file.
+* Widget constructor updated to avoid deprecation notices.
+* Shortcode supports multiple video IDs, separated with comma.
+* Code enhancements and optimizations.
 
 = 1.3 =
 * Added ability to add more than one video ID into the widget video field. Separate with comma: ID1, ID2, ID3 etc.
